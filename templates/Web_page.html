@@ -1,0 +1,93 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>
+        Basic Details
+    </title>
+    <link rel="stylesheet" href="static/Web_Style.css">
+</head>
+
+<body bgcolor="#80b3ff">
+    <style>
+        div {
+            border: 1px black;
+            border-style: line;
+            background-color: #003d99;
+            text-align: center;
+            text-color: white;
+            color: solid black 1.5 px;
+        }
+
+        input[type="button"] {
+            background-color: #80b3ff;
+            color: black;
+            border: line;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        input[type="text"] {
+            background-color: #e6ffe6;
+            //border:5px solid black;
+            height: 30px;
+            width: 200px;
+            font-size: 20px;
+        }
+    </style>
+
+
+    <form>
+        <div class=div>
+            <h1 style="color:white;"> FILL UP THE BASIC DETAILS </h1>
+        </div>
+        <div class="form">
+            <b>
+                <h2>Enter Your Name </h2>
+            </b>
+            <input type="text" name="Your_name" placeholder="Enter Your Name" id="Your_name"><br><br>
+            <br><br>
+
+            <label> <b>
+                    <h2>Select </h2>
+                </b> </label>
+            <select>
+                <option value="Student">
+                    <h3>Student </h3>
+                </option>
+                <option value="Faculty">
+                    <h3>Faculty </h3>
+                </option>
+                <option value="Stuff">
+                    <h3> Stuff </h3>
+                </option>
+                <option value="Others">
+                    <h3> Others </h3>
+                </option>
+            </select>
+
+            <br><br><br><br>
+        </div>
+
+        <a href="/page2" class="btn">
+            <h3>Next</h3>
+        </a>
+
+
+        <script>
+
+            function name() {
+                var input_text = document.getElementById("Your_name");
+                if (input_text.value == "") {
+                    alert("Please enter your name");
+                    return false;
+                }
+            }
+        </script>
+
+
+
+
+</html>

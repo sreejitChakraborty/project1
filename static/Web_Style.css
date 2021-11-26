@@ -1,0 +1,40 @@
+{
+	margin: 0
+	padding: 0
+}
+
+.form{
+	width: 300px;
+	height: 400px;
+	background: linear-gradient(to top, hsla(290,100%,50%,0.3),hsla(290,100%,50%,0.3));
+	position: absolute;
+	top: 60px;
+	left: 550px;
+	border-radius: 10px;
+	padding: 25px;
+}
+.btn{
+	width: 50px;
+	height: 15px;
+	#// background: linear-gradient(to top, hsla(290,100%,50%,0.3),hsla(290,100%,50%,0.3));
+	background: #ccfff2;
+	position: absolute;
+	top: 550px;
+	left: 680px;
+	border-radius: 10px;
+	padding: 25px;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+
+.content{
+	position: relative;
+}
+
+.content:hover{
+	background-color: #fff;
+}

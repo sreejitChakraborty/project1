@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> upload your file </title>
+
+<body>
+
+    <body bgcolor="#80b3ff">
+
+
+        <style>
+            div {
+                border: 1px black;
+                border-style: line;
+                background-color: #003d99;
+                text-align: center;
+                text-color: white;
+                color: solid black 1.5 px;
+            }
+
+            input[type="button"] {
+                background-color: #80b3ff;
+                color: black;
+                border: line;
+                width: 90px;
+                height: 30px;
+                text-align: center;
+                font-size: 15px;
+            }
+
+            input[type="text"] {
+                background-color: #e6ffe6;
+                //border:5px solid black;
+                height: 30px;
+                width: 200px;
+                font-size: 20px;
+            }
+
+            input[type="file"] {
+                background-color: #e6ffe6;
+                //border:5px solid black;
+                height: 30px;
+                width: 300px;
+                font-size: 20px;
+            }
+        </style>
+
+
+
+
+        <div class=div>
+            <h1 style="color:white;"> Upload Your Work </h1>
+        </div>
+        <h2>Upload Work </h2></b>
+
+
+
+        <input type="file" placeholder="Choose File"><br><br><br>
+        <input type="file" placeholder="Choose File"><br><br><br>
+        <input type="file" placeholder="Choose File"><br><br><br>
+        <input type="button" value="upload" id="alertbox" onclick="popUp()">
+
+        <script>
+
+            function popUp() {
+                var input_file = document.getElementById("alertbox");
+                if (input_file.value != true) {
+                    alert("Successfully Uploaded");
+                }
+                else {
+                    alert("Not Uploaded");
+                }
+            }
+        </script>
+
+
+
+
+
+
+
+
+
+
+    </body>
+    </head>
+
+</html>
